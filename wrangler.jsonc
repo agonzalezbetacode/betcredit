@@ -1,0 +1,8 @@
+{
+    "name": "betcredit",
+    "compatibility_date": "2025-08-17",
+    "compatibility_flags": [
+        "nodejs_compat"
+    ],
+    "pages_build_output_dir": ".vercel/output/static"
+}

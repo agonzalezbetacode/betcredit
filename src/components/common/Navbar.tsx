@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { Calendar, Activity, CreditCard, User, Wallet } from 'lucide-react'
+import { Calendar, Activity, CreditCard, User, Wallet, ShoppingBag } from 'lucide-react'
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -16,6 +16,7 @@ export default function Navbar() {
         { label: 'Eventos', href: '/events', icon: Calendar },
         { label: 'Mis Apuestas', href: '/bets', icon: Activity },
         { label: 'Depósito y Créditos', href: '/deposits', icon: CreditCard },
+        { label: 'Tienda', href: '/products', icon: ShoppingBag },
     ]
 
     return (

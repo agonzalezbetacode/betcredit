@@ -1,0 +1,15 @@
+{
+  "/bets": "pages/bets.html",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/deposits": "pages/deposits.html",
+  "/api/hello": "pages/api/hello.js",
+  "/event/[id]": "pages/event/[id].html",
+  "/events": "pages/events.html",
+  "/": "pages/index.html",
+  "/login": "pages/login.html",
+  "/products": "pages/products.html",
+  "/signup": "pages/signup.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}

@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
 
@@ -64,9 +65,9 @@ export default function LoginPage() {
                     </button>
                 </form>
 
-                <p className="mt-6 text-sm text-gray-500 text-center">
+                <Link href='/signup' className="mt-6 text-sm text-gray-500 text-center">
                     ¿No tienes cuenta? <span className="text-yellow-500 font-semibold">Regístrate</span>
-                </p>
+                </Link>
             </div>
         </div>
     )
