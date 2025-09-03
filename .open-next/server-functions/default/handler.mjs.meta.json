@@ -3456,7 +3456,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.external.js": {
-      "bytes": 18154,
+      "bytes": 18156,
       "imports": [
         {
           "path": "path",
@@ -4196,7 +4196,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/require.js": {
-      "bytes": 63609,
+      "bytes": 63696,
       "imports": [
         {
           "path": "path",
@@ -6330,7 +6330,7 @@
       "format": "esm"
     },
     ".open-next/server-functions/default/index.mjs": {
-      "bytes": 75386,
+      "bytes": 75388,
       "imports": [
         {
           "path": "node:module",
@@ -7647,7 +7647,7 @@
           "bytesInOutput": 586
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.external.js": {
-          "bytesInOutput": 13036
+          "bytesInOutput": 13040
         },
         ".open-next/server-functions/default/node_modules/react/cjs/react-jsx-runtime.production.js": {
           "bytesInOutput": 740
@@ -7758,7 +7758,7 @@
           "bytesInOutput": 17340
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/require.js": {
-          "bytesInOutput": 59058
+          "bytesInOutput": 59143
         },
         ".open-next/server-functions/default/node_modules/next/dist/lib/wait.js": {
           "bytesInOutput": 341
@@ -8046,10 +8046,10 @@
           "bytesInOutput": 8675
         },
         ".open-next/server-functions/default/index.mjs": {
-          "bytesInOutput": 52444
+          "bytesInOutput": 52448
         }
       },
-      "bytes": 3225713
+      "bytes": 3225806
     }
   }
 }

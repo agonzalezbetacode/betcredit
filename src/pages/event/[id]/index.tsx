@@ -53,6 +53,8 @@ export default function EventDetail() {
         alert(`✅ Apostaste ${creditosNum} créditos al número ${numero}`)
     }
 
+    const cierreDateTime = DateTime.fromISO(cierreColorado, { zone: coloradoTZ })
+
     return (
         <>
             <Navbar />
@@ -156,8 +158,11 @@ export default function EventDetail() {
                         {error && <p className="text-red-500 text-sm">{error}</p>}
 
                         <button
+                            disabled={DateTime.now() > cierreDateTime}
                             onClick={handleApostar}
-                            className="w-full bg-yellow-500 text-white font-semibold py-2 rounded-lg hover:bg-yellow-600 transition"
+                            className="w-full py-2 rounded-lg font-semibold transition 
+               bg-yellow-500 hover:bg-yellow-600 
+               disabled:bg-gray-400 disabled:text-gray-200 disabled:cursor-not-allowed text-white"
                         >
                             Apostar
                         </button>
